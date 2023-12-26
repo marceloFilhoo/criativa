@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.big-banner {
+  background-image: url(../imagens/home/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.texto-nav {
+  background-color: #333;
+
+}
+
+.nav-link {
+  position: relative;
+
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+
+}
+
+.teste p {
+  max-width: 70%;
+  font-size: 25px;
+}
+
+.cor {
+  background-color: white;
+}
+
+@media(max-width: 450px) {
+  .teste p {
+    max-width: 100%;
+
+  }
+
+  .teste-maps {
+    padding-left: 22px;
+
+  }
+
+}
